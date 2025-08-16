@@ -27,6 +27,8 @@ As an example, to run the classic UAP attack against ResNet-50 on ImageNet datas
 python run_uap.py --run_uap.py --net_arch resnet50 --net_ckpt_path /path/to/model/checkpoint --data_root_dir /path/to/image/folder --dataset imagenet10
 ```
 
+## Run Cocktail Attack
+
 As an example, to run our proposed cocktail attack against ResNet-50 on ImageNet dataset, you could use the following command:
 
 ```
